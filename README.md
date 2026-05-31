@@ -1,3 +1,24 @@
-# finanace_Tracker
-Developed a Personal Finance Tracker application that helps users manage their daily expenses, monitor spending habits, and generate financial reports. The system provides a user-friendly interface for recording income and expenses, categorizing transactions, and analyzing financial data through detailed reports and summaries.
-http://127.0.0.1:5000
+# Week 4 - Personal Finance Tracker
+
+A CLI-based personal finance tracker with expense management, budgets, reports, and CSV export.
+
+## Run
+
+```bash
+cd week4-finance-tracker
+python run.py
+```
+
+## Tests
+
+```bash
+cd week4-finance-tracker
+python -m pytest tests/ -v
+```
+
+## Features
+
+- Add / view / search expenses
+- Monthly reports and category breakdown
+- Budget tracking with over-budget alerts
+- CSV export and JSON backup/restore
